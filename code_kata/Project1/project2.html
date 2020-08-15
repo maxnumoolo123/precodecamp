@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <style>
+        .container{
+            margin: 20px 10px 30px;
+        }
+        .title-info{
+            color: rgb(144, 113, 173);
+            font-style: italic;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        form > fieldset > div {
+            margin: 20px auto;
+        }
+        fieldset{
+            margin: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>A Simple Form</h1>
+        <h2 class="title-info">Form Fundamentals</h2>
+        <form action=""autocomplete="on">
+
+            <fieldset class="legend-1">
+                <legend>Customer Info</legend>
+                <div>
+                    <label>Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name" size="30" autofocus required>
+                </div>
+                <div>
+                    <label>Telephone:</label>
+                    <input type="text" name="telephone" id="telephone" placeholder="Patten: 1-234-567-8910" size="30" required>
+                </div>
+                <div>
+                    <label>Email address:</label>
+                    <input type="text" name="Email" id="Email" placeholder="Enter Your E-mail Address" size="30" required>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Books</legend>
+                <div>
+                    <label>
+                        <input type="text" name="Books Name" list="Books" size="30">
+                        <datalist id="Books">
+                            <option value="MaxNum And MaxNum"></option>
+                            <option value="MaxNum And MaxNum"></option>
+                            <option value="MaxNum And MaxNum"></option>
+                            <option value="MaxNum And MaxNum"></option>
+                            <option value="MaxNum And MaxNum"></option>
+                        </datalist>
+                    </label>
+                    <label>Quantity (Maximum 5):</label>
+                    <input type="number" name="number" id="number" min="1" max="5">
+                </div>
+            </fieldset>
+            <br>
+            <div>
+                <input type="submit" name="Submit" value="Submit">
+            </div>
+        </form>
+        <div class="credit">© 2011 Acme United. All rights reserved</div>
+
+
+    </div>
+</body>
+</html>

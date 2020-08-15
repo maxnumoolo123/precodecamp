@@ -1,0 +1,15 @@
+h1{
+    color: #d14;
+}
+div h1 {
+    color: #d14;
+}
+
+#frist {
+    color: aqua;
+}
+
+.second {
+    color: blue;
+    background-color: blue;
+}

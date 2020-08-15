@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+body{
+    background: #DCEBFC;
+}
+.container{
+    background: #FFF;
+    padding: 15rem;
+}
+html{
+    font-size: 8px;
+}
+h1,h2,h3{
+    color: darkblue;
+}
+.footer{
+    font-family: 'Roboto Condensed';
+}
+.front-icon{
+    display:block;
+    color:#FFFFFF;
+    padding:3rem;
+    background:#4F85D7;
+}
+ 
+.front-icon i{
+    font-size: 10rem;
+}
+
+.bg-primary{
+    background: #4F85D7 !important;
+}
